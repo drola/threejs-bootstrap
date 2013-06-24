@@ -1,0 +1,183 @@
+body {
+	background-color: #f0f0f0;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+body.file_manager {
+    background-color: #f6f6f6;
+}
+
+#canvasContainer {
+	background-color: white;
+	margin-right: 250px;
+}
+
+#appContainer {
+	padding: 0;
+	margin: 0;
+}
+
+#topNavbar {
+	margin-bottom: 0;
+}
+
+#settingsBar {
+	position: absolute;
+	top: 40px;
+	bottom: 40px;
+	right: 0;
+	width: 250px;
+	float: right;
+	color: #666;
+	overflow: auto;
+}
+
+#settingsBar hr {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ccc;
+}
+
+
+#settingsBar h4{
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+#settingsBar label {
+	font-size: 10px;
+	text-transform: uppercase;
+	margin: 0;
+	line-height: 1.1em;
+}
+
+
+#settingsBar table td {
+	vertical-align: middle;
+}
+
+
+#fileList {
+	min-height: 60px;
+}
+
+#stats {
+	position: absolute;
+}
+
+#xscalecontrol, #zscalecontrol, #yscalecontrol {
+	width: 120px;
+	margin: auto;
+}
+
+#xscalevalue, #yscalevalue, #zscalevalue {
+    width: 4em;
+    text-align: right;
+    font-size: 10px;
+    line-height: 1.1em;
+}
+
+#settingsBar .infovalue {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#addFilesButton {
+    float: right;
+}
+
+.right_spinner_frame {
+    float: right;
+    margin-top: 20px;
+}
+
+#progress_container {
+    display: none;
+}
+
+#progress_block {
+    min-height: 45px;
+}
+
+#progress_bar {
+    margin-bottom: 0;
+}
+
+#view_mode_buttons label {
+	display: inline;
+	border-radius: 3px;
+	text-transform: none;
+	padding: 3px;
+}
+
+/* Manager */
+.limit-settings-row {
+	display: none;
+}
+
+.limit-settings-row > td {
+	border-top: none;
+}
+
+.prores-limit-green,
+.prores-limit-yellow,
+.prores-limit-red {
+	width: 10px;
+	height: 10px;
+	border: 1px solid #ccc;
+	float: right;
+	margin-top: 3px;
+}
+
+.prores-limit-green {
+	background-color: green;
+}
+
+.prores-limit-red {
+	background-color: red;
+}
+
+.prores-limit-yellow {
+	background-color: yellow;
+}
+
+.limit-settings-color-col {
+	width: 80px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.limit-settings-color-col input {
+	width: 40px;
+}
+
+.limit-settings {
+	width: auto;
+}
+
+#eventDetailContainer {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	border: 1px solid #ccc;
+	width: 300px;
+	background-color: #ddd;
+	display: none;
+}
+
+#eventDetailContainer td {
+}
+
+#eventDetailContainer td, #eventDetailContainer td label {
+	font-size: 10px;
+}
+
+#proresInformationContainer table span, #proresInformationContainer table td {
+	font-size: 10px !important;
+	padding: 0;
+	margin: 0;
+}
+
+#proresInformationContainer table label {
+	font-size: 8px;
+}
